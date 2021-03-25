@@ -14,8 +14,21 @@ p {
 footer {
     height: 10rem;
     background-color: #26afeb;
+    
 }
 
+.footer_content {
+    color: #fff;
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.footer_content a:link,
+.footer_content a:visited{
+    color: #fff;
+}
 /* Header */
 .header {
     background: linear-gradient(to right,#55c0ef, #149edb);
