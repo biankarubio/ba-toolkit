@@ -1,870 +1,1471 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Fonts and Icons -->
-    <link
-      rel="shortcut icon"
-      href="images/logoicons/favicon_web.ico"
-      type="image/x-icon"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- Styles  -->
-    <base target="_blank">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Web Resources</title>
-  </head>
-  <body>
-   
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Fonts and Icons -->
+  <link rel="shortcut icon" href="images/logoicons/favicon_web.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Styles  -->
+  <base target="_blank">
+  <link rel="stylesheet" href="css/style.css">
+  <title>BABOK Techniques</title>
+</head>
+
+<body>
+
   <header class="header">
-    <img src="images/logoicons/web-design.png" alt="Web Design Icon" class="header__logo">
-    <h1 class="header__text">Front-End Web Development Resource</h1>
-   </header>
-  
-   <div class="navigation">
-      <ul>
-        <li><a class="btn-small" target="_self" href="#devtools">DevTools</a></li>
-        <li><a class="btn-small" target="_self" href="#html">HTML</a></li>
-        <li><a class="btn-small" target="_self" href="#unicodeemoji">Unicode and Emojis</a></li>
-        <li><a class="btn-small" target="_self" href="#css">CSS</a></li>
-        <li><a class="btn-small" target="_self" href="#fonts">Fonts</a></li>
-        <li><a class="btn-small" target="_self" href="#color">Colors</a></li>
-        <li><a class="btn-small" target="_self" href="#icons">Icons</a></li>
-        <li><a class="btn-small" target="_self" href="#images">Images</a></li>
-        <li><a class="btn-small" target="_self" href="#design">Design </a></li>
-        <li><a class="btn-small" target="_self" href="#optimization">Optimization</a></li>
-        <li><a class="btn-small" target="_self" href="#courses">Courses</a></li>
-        <li><a class="btn-small" target="_self" href="#random">Random</a></li>
-     </ul>
-    </div>
+    <img src="images/babokicons/business-analysis.png" alt="Business analysis icon" class="header__logo">
+    <h1 class="header__text">Business Analysis Techniques</h1>
+  </header>
 
-    <section id="devtools" class="section">
-      <span class="section__icon ion-ios-compose-outline"></span>
-      <h2 class="section__title">Development tools</h2>
-      <div class="resources">
-        <div class="resource__card">
-          <img
-            src="images/logoicons/vscode.png"
-            alt="Visual Studio Code Logo" class="resource__card-img"
-          />
-          <h3 class="resource__card-title">
-            <a href="https://code.visualstudio.com/">Visual Studio Code</a>
-          </h3>
-          <p>
-            <strong>Extensions:</strong> Color Highlight, CSS Peek, Material
-            Theme Icons, stylelint-plus, Atom One Dark Theme, Prettier.
-          </p>
-          <p>
-            <strong>Prettier Shortcuts:</strong><br />
-            1. CMD + Shift + P -> Format Document <br />
-            OR <br />
-            1. Select the text you want to Prettify <br />
-            2. CMD + Shift + P -> Format Selection <br />
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/codepen.png" alt="Codepen Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://codepen.io/pen/">Codepen</a></h3>
-          <p><strong>Username:</strong> biankita</p>
-            <p> CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/codeply.png" alt="Codeply Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.codeply.com/">Codeply</a></h3>
-          <p><strong>Username:</strong> biankita</p>
-          <p>A HTML, CSS, JavaScript editor playground for designers & developers to compare, prototype and test frontend frameworks.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/emmet.png" alt="Emmet Logo" class="resource__card-img"/>
-          <h3 class="resource__card-title">
-            <a href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a>
-          </h3>
-          <p>Emmet is a set of plug-ins for text editors that allow for high-speed coding and editing in HTML, XML, XSL, and other structured code formats via content assist.</p>
-        </div>
-      </div>
-      <!-- <div>
-        <h3 class="resource__card-title">Notes</h3 class="resource__card-title">
-        <div class="resource__card"><h3 class="resource__card-title">Shortcuts</h3 class="resource__card-title"></div>
-      </div> -->
-    </section>
+  <!-- Navigation -->
+  <div class="navigation">
+    <ul>
+      <li><a class="btn-small" target="_self" href="#feasibility">Business Case & Feasibility Analysis</a></li>
+      <li><a class="btn-small" target="_self" href="#strategy">Business Strategy & Capability Analysis</a></li>
+      <li><a class="btn-small" target="_self" href="#organization">Stakeholder & Organizational Analysis</a></li>
+      <li><a class="btn-small" target="_self" href="#elicitation">Elicitation Techniques</a></li>
+      <li><a class="btn-small" target="_self" href="#requirements">Requirements Definition & Analysis</a></li>
+      <li><a class="btn-small" target="_self" href="#process">Process & Logic Modeling</a></li>
+      <li><a class="btn-small" target="_self" href="#data">Data Modeling & Information Architecture</a></li>
+      <li><a class="btn-small" target="_self" href="#optimization">Performance Measurement & Optimization</a></li>
+    </ul>
+  </div>
 
-    <section id="html" class="section">
-      <span class="section__icon ion-social-html5-outline"></span>
-    
-      <h2 class="section__title">HTML Resources</h2>
-     
-      <div class="resources">
-        <div class="resource__card">
-          <img src="images/logoicons/mdn.png" alt="MDN Logo" class="resource__card-img"/>
-          <h3 class="resource__card-title">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
-              HTML MDN Documentations</a
-            >
-          </h3>
-          <p>The main entry point for HTML reference documentation on MDN, including detailed element and attribute references.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/html-cheat.png" alt="HTML Site Logo" class="resource__card-img"/>
-          <h3 class="resource__card-title">
-            <a href="https://websitesetup.org/html5-cheat-sheet/">
-              HTML Cheat Sheets</a
-            >
-          </h3>
-          <p>HTML Cheat Sheet PDF reference.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/csstricks.jpg" alt="CSS Tricks Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://css-tricks.com/snippets/html/glyphs/"
-              >HTML Entities Reference</a
-            >
-          </h3>
-          <p>Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces).</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/W3Schools.png" alt="W3Schools Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.w3schools.com/">W3 Schools</a></h3>
-          <p>W3Schools is a training website for learning web technologies online. </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/devdocs.png" alt="Devdocs icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://devdocs.io/">Devdocs.io</a></h3>
-          <p>alternative reference for HTML, CSS, JS documentation.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/waybackm.jpg" alt="Wayback icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://archive.org/web/">WayBack Machine</a></h3>
-          <p>Find out what websites used to look like in the olden days.</p>
-        </div>
 
-        <div class="resource__card">
-          <img src="images/logoicons/w3c.png" alt="W3C Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://validator.w3.org/">HTML Validator by W3C</a></h3>
-          <p>
-            Check if your HTML markup is valid and contains no errors. Official
-            W3C tool.
-          </p>
-        </div>
-      </div>
-    </section>
+  <!-- Section 1: Business Case & Feasibility Analysis -->
+  <section id="feasibility" class="section">
+    <span class="section__icon">
+      <ion-icon name="briefcase-outline" class="section__icon_svg"></ion-icon>
+    </span>
+    <h2 class="section__title">Business Case & Feasibility Analysis</h2>
+    <div class="resources">
 
-    <section id="unicodeemoji" class="section">
-      <span class="section__icon ion-android-happy"></span>
-       <h2 class="section__title">Unicode and Emojis</h2>
-      
-      <div class="resources">
-        <div class="resource__card">
-          <img src="images/logoicons/atsign.jpg" alt="At sign symbol" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://unicode-table.com/en/"
-              >Unicode Character Table (+ emojis)</a
-            >
-          </h3>
-          <p>Unicode web service for character search. Find, copy and paste your favorite characters.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/Unicodeorg.jpg" alt="Unicode.org Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://home.unicode.org/">Unicode.org (+ emojis)</a>
-          </h3>
-          <p>Unicode is an information technology standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/emojipedia.png" alt="Emojipedia Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://emojipedia.org/">Emojipedia</a>
-          </h3>
-            <p> 
-              The emoji search engine. A fast emoji search experience with options to browse every emoji by name, category, or platform.</p>
-          
-        </div>
-      </div>
-    </section>
-
-    <section id="css" class="section">
-      <span class="section__icon ion-social-css3-outline"></span>
-      <h2 class="section__title">CSS Resources</h2>
-   
-      <div class="resources">
-        <div class="resource__card">
-          <img src="images/logoicons/mdn.png" alt="MDN Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS MDN Documentation</a></h3>
-          <p>The main entry point for CSS documentation on MDN, where you'll find detailed reference documentation for all features of the CSS language.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/codrops.png" alt="Codrops Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="http://tympanus.net/codrops/css_reference/"
-              >Codrops CSS Reference</a
-            >
-          </h3>
-          <p>Another excellent CSS3 reference.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/caniuse.png" alt="Can I Use Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://caniuse.com/">Can I Use?</a></h3>
-          <p>
-            Up-to-date browser support tables for front-end technologies on
-            desktop and mobile browsers.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/tutplus.png" alt="Tutplus Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a
-              href="https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048"
-            >
-              Selectors by Tutplus</a
-            >
-          </h3>
-          <p>Handy list of the 30 most important CSS selectors from Tutplus.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/specificity.jpg" alt="Specificity icon" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a
-              href="https://specificity.keegan.st/">
-              Specificity Calculator</a
-            >
-          </h3>
-          <p>A visual way to understand CSS specificity. Change the selectors or paste in your own.</p>
-        </div>
-       <div class="resource__card">
-          <img src="images/logoicons/animatecss.png" alt="Animate.css Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://animate.style/">Animate.css</a></h3>
-          <p>A simple CSS library that lets you add animations with ease.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/W3Schools.png" alt="W3Schools logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.w3schools.com/cssref/css_default_values.asp">CSS default values</a></h3>
-          <p>A table showing the default CSS browser values for all HTML elements.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/csstricks.jpg" alt="CSS Guide icon" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a
-              href="https://paulcpederson.com/articles/css-for-people-who-hate-css/"
-              >CSS for people that hate CSS</a
-            >
-          </h3>
-          <p>
-            Excellent guide on how to write better, cleaner and more reusable
-            CSS code.
-          </p>
-        </div>
-
-        <div class="resource__card">
-          <img src="images/logoicons/cssreset.png" alt="CSS Reset icon" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a
-              href="https://meyerweb.com/eric/tools/css/reset/"
-              >CSS Reset</a
-            >
-          </h3>
-          <p>
-            The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on.
-          </p>
-        </div>
-         <div class="resource__card">
-          <img src="images/logoicons/clippy.png" alt="Clippy Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://bennettfeely.com/clippy/">Clippy</a></h3>
-          <p>
-            CSS cliip-path maker, a small tool to help you using the new and
-            powerful clip-path property.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/cubic.png" alt="Cubic icon" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://cubic-bezier.com/#.17,.67,.83,.67"
-              >Cubic-beizer generator</a
-            >
-          </h3>
-          <p>
-            A tool for visually generating timing animation functions to use in
-            CSS transitions and animations.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/easings.png" alt="Easings icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://easings.net/">CSS easings functions</a></h3>
-          <p>
-            An amazing collection of easing functions bo be used in CSS
-            transitions and animations.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/w3c.png" alt="W3C Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://jigsaw.w3.org/css-validator/"
-              >CSS Validator by W3C</a
-            >
-          </h3>
-          <p>
-            Check if your CSS code is valid and contains no errors. Official W3C
-            tool.
-          </p>
-        </div>
       <div class="resource__card">
-        <img src="images/logoicons/csstricks.jpg" alt="W3C Logo" class="resource__card-img" />
-        <h3 class="resource__card-title">
-          <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
-             class="favorite-link">CSS Tricks - Flexbox</a
-          >
+        <img src="images/babokicons/briefcase.png" alt="Briefcase" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Business Cases
         </h3>
-        <p>
-          Daily articles about CSS, HTML, JavaScript, and all things related to web design and development.
+        <p>Provides the business justification for a proposed initiative based on benefits, costs, and risks.</p>
+
+        <p class="resource__card-links">
+          <a href="https://www.projectmanager.com/blog/how-to-write-a-business-case">
+            • How to Write a Business Case
+          </a>
         </p>
       </div>
-    </div>
-      
-    </section>
-
-    <section id="fonts" class="section">
-      <span class="section__icon ion-ios-bookmarks-outline"></span>
-       <h2 class="section__title">Fonts and Typography</h2>
-      
-      <div class="resources">
-        <div class="resource__card">
-          <img src="images/logoicons/googlefonts.png" alt="Google Fonts Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://fonts.google.com/">Google Fonts</a></h3>
-          <p>
-            The #1 resource for free and easy-to-use webfonts. Has a huge
-            library of fonts.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/W3Schools.png" alt="W3Schools Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp"
-              >CSS Web Safe Fonts</a
-            >
-          </h3>
-          <p>Find information of web sabe fonts.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/cssfont.jpg" alt="CSS Font Stack icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.cssfontstack.com/">CSS Font Stack</a></h3>
-          <p>View Font usage by operating system.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/fontastic.png" alt="Fontastic Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="http://fontastic.me/">Fontastic</a></h3>
-          <p>
-            Create a customized icon font from your icons. Choose from 9000
-            icons or import your own.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="color" class="section">
-      <span class="section__icon ion-ios-color-filter-outline"></span>
-      <h2 class="section__title">Colors</h2>
-   
-      <div class="resources">
-        <div class="resource__card">
-          <img
-            src="images/logoicons/imagecolorpicker.png"
-            alt="Image color picker Logo" class="resource__card-img"
-          />
-          <h3 class="resource__card-title"><a href="https://imagecolorpicker.com/en">Image color picker</a></h3>
-          <p>
-            Upload a picte and get pick the colors.
-          </p>
-        </div>
-
-
-        <div class="resource__card">
-          <img
-            src="images/logoicons/flatuicolors.png"
-            alt="FlatUI Colors Logo" class="resource__card-img"
-          />
-          <h3 class="resource__card-title"><a href="https://flatuicolors.com/">Flat UI Colors</a></h3>
-          <p>
-            A good starting point for choosing a flat design color for your next
-            project.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/coolors.png" alt="Coolors Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://coolors.co/" class="favorite-link">Coolors.co</a></h3>
-          <p>My favorite place to find colors.</p>
-        </div>
-        <div class="resource__card">
-          <img
-            src="images/logoicons/materialpalette.jpg"
-            alt="Material Palette Logo" class="resource__card-img"
-          />
-          <h3 class="resource__card-title">
-            <a href="https://www.materialpalette.com/"
-              >Material Design Palette</a
-            >
-          </h3>
-          <p>
-            Another great set of colors, inspired in material design. Generate
-            and download your palette.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/colorhunt.gif" alt="Color Hunt Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://colorhunt.co/">Color Hunt</a></h3>
-          <p>
-            Don't know what colors to use for your website? Colorhunt helps you
-            with beautiful color palettes.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/lolcolors.svg" alt="LOL Colors Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://www.webdesignrankings.com/resource__cards/lolcolors/"
-              >LOL Colors</a
-            >
-          </h3>
-          <p>
-            Curated color palettes inspiration. Another source for great color
-            palettes.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/uigradients.png" alt="UI Gradients Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://uigradients.com/#ClearSky">UI Gradients</a></h3>
-          <p>
-            Collection of beautiful color gradients for you to choose from and
-            export to your project.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/paletton.png" alt="Paletton Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF"
-              >Paletton</a
-            >
-          </h3>
-          <p>
-            A very popular tool which allows you to create color combinations
-            that play well together.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/0to255.png" alt="0to255 icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.0to255.com/" class="favorite-link">0to255</a></h3>
-          <p>
-            A simple tool that helps you find variations of any color. Perfect
-            for hovers, borders and gradients.
-          </p>
-        </div>
-
-        <div class="resource__card">
-          <img src="images/logoicons/adobe.png" alt="Adobe icon" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://color.adobe.com/create/color-wheel"
-              >Adobe Color Wheel</a
-            >
-          </h3>
-          <p>Adobe advanced color tool.</p>
-        </div>
 
       <div class="resource__card">
-        <img src="images/logoicons/htmlcolorcodes.png" alt="HTML Color Codes Logo" class="resource__card-img" />
+        <img src="images/babokicons/estimation.png" alt="Estimation" class="resource__card-img" />
         <h3 class="resource__card-title">
-          <a href=" https://htmlcolorcodes.com/"
-            >HTML Color Codes</a
-          >
+          Estimation
         </h3>
-        <p>Get HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names.</p>
-      </div>
-    </div>
-
-
-     
-    </section>
-
-    <section id="icons" class="section">
-      <span class="section__icon ion-ios-paperplane-outline"></span>
-
-      <h2 class="section__title">Icons and Favicons</h2>
-   
-      <div class="resources">
-        <div class="resource__card">
-          <img src="images/logoicons/flaticon.png" alt="Flaticon Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.flaticon.com/" class="favorite-link">Flaticon</a></h3>
-          <p>
-            The largest database of free icons available in PNG, SVG, EPS and
-            PSD. It's even searchable.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/ionicons.png" alt="Ionicons Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://ionicons.com/">Ionicons</a></h3>
-          <p>Icon fonts 100% free even for commercial usage.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/ionicons.png" alt="Ionicons Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://ionicons.com/v2/cheatsheet.html">Ionicons V2 Cheat Sheet</a></h3>
-          <p>V2.0.0 Cheatsheet with 733 icons.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/fontawesome.png" alt="Fontawesome Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://fontawesome.com/">Font Awesome</a></h3>
-          <p>
-            Another highly popular icon font, consisting of 600+ icons spread
-            across several categories.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/iconmonstr.png" alt="Iconmonstr Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://iconmonstr.com/">Iconmonstr</a></h3>
-          <p>
-            Over 3400 free and simple icons in 246 collections, all searchable.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/fcc.png" alt="Favicon.cc Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.favicon.cc//">Favicon.cc</a></h3>
-          <p>Create a simple Favicon for your site.</p>
-        </div>
-        <div class="resource__card">
-          <img
-            src="images/logoicons/favicongenerator.png"
-            alt="Favicon generator icon" class="resource__card-img"
-          />
-          <h3 class="resource__card-title">
-            <a href="https://realfavicongenerator.net/"
-              >Real Favicon generator</a
-            >
-          </h3>
-          <p>
-            Creates favicons for your website for all platforms, web, ios,
-            android.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="images" class="section">
-      <span class="section__icon ion-ios-camera-outline"></span>
-      <h2 class="section__title">Images</h2>
-      
-      <div class="resources">
-        <div class="resource__card">
-          <img src="images/logoicons/unsplash.svg" alt="Unsplash Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://unsplash.com/" class="favorite-link">Unsplash</a></h3>
-          <p>
-            Great resource for free high-resolution photos. 10 new photos every
-            10 days.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img
-            src="images/logoicons/subtlepatterns.png"
-            alt="Subttle Patterns icon" class="resource__card-img"
-          />
-          <h3 class="resource__card-title">
-            <a href="https://www.toptal.com/designers/subtlepatterns/"
-              >Subttle Patterns</a
-            >
-          </h3>
-          <p>
-            High quality resource of tilable textured patterns, completely free
-            to use.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/coverr.png" alt="Coverr Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://coverr.co/">Coverr</a></h3>
-          <p>
-            Best resource for beautiful and free videos for your website. 7 new
-            videos added every monday.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/imageonline.png" alt="Image Online.co Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://crop-circle.imageonline.co/">Image Online.co</a></h3>
-          <p>
-            Free image editing tools.
-          </p>
-        </div>
- 
-      </div>
-    </section>
-
-    <section id="design" class="section">
-      <span class="section__icon ion-android-color-palette"></span>
-      <h2 class="section__title">Design Tools</h2>
-    
-      <div class="resources">
-        <div class="resource__card">
-          <img
-            src="images/logoicons/periodictable.png"
-            alt="Periodic Table of Web Design icon" class="resource__card-img"
-          />
-          <h3 class="resource__card-title">
-            <a
-              href="https://www.newdesigngroup.ca/website-design/web-design-process-infographic/
-            "
-              >Periodic Table of Web Design</a
-            >
-          </h3>
-          <p>
-            Great overview of the web design process: from project brief to
-            launching the final version.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/canva.png" alt="Canva Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.canva.com/" class="favorite-link">Canva</a></h3>
-          <p>
-            Easily create beautiful designs with drag-and-drop features and
-            professional layouts.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img
-            src="images/logoicons/dribbble.png"
-            alt="Favicon generator icon" class="resource__card-img"
-          />
-          <h3 class="resource__card-title"><a href="https://dribbble.com/">Dribble</a></h3>
-          <p>
-            The ultimate design inspiration resource, not just for web design.
-            The show and tell for designers.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/behance.jpg" alt="Behance Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://www.behance.net/search/projects?field=web%20design"
-              >Behance</a
-            >
-          </h3>
-          <p>
-            Behance is a social media platform owned by Adobe "to showcase and
-            discover creative work.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/dailyui.png" ="DailyUI icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href=" https://www.dailyui.co/">DailyUI</a></h3>
-          <p>
-            Daily UI is a series of daily design challenges design inspiration
-            and neat surprise rewards.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/frontmentor.png" alt ="Frontend Mentor Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.frontendmentor.io/solutions">Frontend Mentor</a></h3>
-          <p>
-            Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.
-          </p>
-          <p><strong>Username:</strong> <a href="https://www.frontendmentor.io/profile/biankita" class="sublink"> biankita</a>
-            </p>
-        </div>
-
-      <div class="resource__card">
-        <img src="images/logoicons/uipatterns.png" alt="UI Patters Logo" class="resource__card-img" />
-        <h3 class="resource__card-title"><a href="http://ui-patterns.com/">User Interface design patterns</a></h3>
+        <p>Assessing the effort, cost, and resources required to complete tasks or deliver solutions.</p>
         <p>
-          User Interface Design patterns are recurring solutions that solve common design problems. Design patterns are standard reference points for the experienced user interface designer.
+          <strong>Estimation Methods</strong>
+        <ul>
+          <li>Top-down</li>
+          <li>Bottom-up</li>
+          <li>Parametric</li>
+          <li>Rough order of magnitude (ROM)</li>
+          <li>Rolling wave</li>
+          <li>Delphi</li>
+          <li>PERT</li>
+        </ul>
+        </p>
+        <p>
+          <strong>Estimation Sources</strong>
+        <ul>
+          <li>Analogous situations</li>
+          <li>Historical enterprise experiences</li>
+          <li>Expert judgement</li>
+        </ul>
+        </p>
+
+        <p class="resource__card-links">
+          <a href="https://project-management.info/parametric-estimating/">
+            • Parametric Estimating | Definition, Examples, Uses
+          </a>
+          </br>
+          <a href="https://www.geeksforgeeks.org/delphi-method-meaning-uses-process-and-application/">
+            • Delphi Method: Meaning, Uses, Process and Application
+          </a>
         </p>
       </div>
 
       <div class="resource__card">
-        <img src="images/logoicons/smashingmagazine.png" alt="Smashing Magazine Logo" class="resource__card-img" />
-        <h3 class="resource__card-title"><a href="https://www.smashingmagazine.com/2020/09/checklist-cards-re-release/">Smashing Magazine Checklist Cards</a></h3>
+        <img src="images/babokicons/magnifier-dollar.png" alt="Magnifier dollar" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Financial Analysis
+        </h3>
+        <p>Evaluating financial data to support business decisions and assess economic feasibility.</p>
         <p>
-          Smart Interface Design Patterns In Your Pocket, a deck of 100 cards with questions to ask when designing and building any interface component — carousel, hamburger, table, date picker, autocomplete, slider, onboarding, pricing plans, authentication, web forms and many others.
+          <strong>Financial Calculations</strong>
+        <ul>
+          <li>Return on investment (ROE)</li>
+          <li>Discount rate</li>
+          <li>Present value</li>
+          <li>Net present value (NPV)</li>
+          <li>Internal rate of return (IRR)</li>
+          <li>Payback period</li>
+        </ul>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://nucleusresearch.com/everything-to-know-about-roi-tco-npv-and-payback/">
+            • Everything to know about ROI, TCO, NPV, and Payback
+          </a>
         </p>
       </div>
 
       <div class="resource__card">
-        <img src="images/logoicons/uxlibrary.png" alt="UX Library" class="resource__card-img" />
-        <h3 class="resource__card-title"><a href="https://www.uxlibrary.org/">UX Library</a></h3>
+        <img src="images/babokicons/magnifier-risk.png" alt="Magnifier risk" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Risk Analysis and Management
+        </h3>
+        <p>Identifying, analyzing, and evaluating potential risks to business or project success. Setting up plans to
+          respond to those risks in order to mitigate uncertainty.</p>
+
+        <p><strong class="resource__card-focus">Risk Level = Likelihood x Impact</strong></p>
         <p>
-          Your one-stop website for UX Articles, Books, Resources, & More.
+          <strong>Risk Responses</strong>
+        <ul>
+          <li>Mitigate</li>
+          <li>Avoid</li>
+          <li>Transfer</li>
+          <li>Accept</li>
+          <li>Increase</li>
+        </ul>
+
+        </p>
+        <p class="resource__card-links">
+          <a
+            href="https://asana.com/resources/risk-register?gclid=a2201a48174f1917132d725eef32bf06&gclsrc=3p.ds&msclkid=a2201a48174f1917132d725eef32bf06&utm_source=bing&utm_medium=cpc&utm_campaign=namer_us_en_mlti_mlti_search_microsoft_nb_catchalldsa&utm_term=https%3A%2F%2Fasana.com%2F&utm_content=namer_us_en_mlti_mlti_search_search_microsoft_mix_3p_dsa_sitewide_all_dsa_sitewide">
+            • Creating a Risk Register
+          </a>
         </p>
       </div>
-      
-      
 
     </div>
-    </section>
+  </section>
 
-    <section id="optimization" class="section">
-      <span class="section__icon ion-ios-loop"></span>
 
-      <h2 class="section__title">Testing, Optimization and Deployment</h2>
-     
-      <div class="resources">
-        <div class="resource__card">
-          <img src="images/logoicons/github.png" alt="GitHub Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://pages.github.com/">GitHub Pages</a></h3>
-          <p>Publish your website using GitHub Pages.</p>
-        </div>
-        <div class="resource__card">
-          <img
-            src="images/logoicons/mobilefriendly.png"
-            alt="Mobile Friendly Checker icon" class="resource__card-img"
-          />
-          <h3 class="resource__card-title">
-            <a href="https://search.google.com/test/mobile-friendly"
-              >Is your web page mobie-friendly?</a
-            >
-          </h3>
-          <p>Quick chek to see if your web page is ready for mobile viewing.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/googledev.png" alt="Google Dev Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://www.thinkwithgoogle.com/feature/testmysite/"
-              >Google mobile-friendly test</a
-            >
-          </h3>
-          <p>
-            Test if your webpage has a mobile-friendly design, according to
-            Google's ranking factors.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/googledev.png" alt="Google Dev Logo" class="resource__card-img" />
-          <h3 class="resource__card-title">
-            <a href="https://developers.google.com/speed/pagespeed/insights/"
-              >Google PageSpeed Insights</a
-            >
-          </h3>
-          <p>Quick tool to test your webpage for performance on all devices.</p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/optimizilla.png" alt="Optimizilla Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://imagecompressor.com/">Optimizilla</a></h3>
-          <p>
-            Compress up to 20 JPEG and PNG images while keeping a good level of
-            quality.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/optimization-guide.png" alt="Optimization Guide icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://kinsta.com/learn/page-speed/">Website Speep Optimization Guide</a></h3>
-          <p>
-            An excellent guide to optimize your webpage speed. This is something many devs overlook!
-         </p>
-        </div>
-       <div class="resource__card">
-          <img
-            src="images/logoicons/usabilitychecklist.ico"
-            alt="Usability checklist icon" class="resource__card-img"
-          />
-          <h3 class="resource__card-title">
-            <a href=" https://teamsuccess.io/UX">Web Usability Checklist</a>
-          </h3>
-          <p>
-            Catch common usability problems of your website before you deploy
-            it. Very useful.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img
-            src="images/logoicons/googleanalytics.png"
-            alt="Google Analytics icon" class="resource__card-img"
-          />
-          <h3 class="resource__card-title">
-            <a href="https://marketingplatform.google.com/about/analytics/"">Google Analytics</a>
-          </h3>
-          <p>
-            Get free insights about traffic, visitors and conversions. A must for every website.
-          </p>
-        </div>
+  <!-- Section 2: Business Strategy & Capability Analysis -->
+  <section id="strategy" class="section">
+    <span class="section__icon">
+      <ion-icon name="search-outline" class="section__icon_svg"></ion-icon>
+    </span>
+    <h2 class="section__title">Business Strategy & Capability Analysis</h2>
+    <div class="resources">
+
+      <div class="resource__card">
+        <img src="images/babokicons/market-research.png" alt="Market research" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Benchmarking & Market Analysis
+        </h3>
+        <p>Techniques used for comparing performance metrics and market conditions to industry standards. The
+          information gathered can be used to imporve the enterprise’s operations.</p>
+        <p class="resource__card-links">
+          <a href="https://www.launchnotes.com/glossary/benchmarking-in-product-management-and-operations">
+            • What Is Benchmarking? A Guide for Product Managers
+          </a>
+          </br>
+          <a href="https://www.similarweb.com/blog/research/market-research/how-to-do-market-analysis/">
+            • How to do Market Analysis in 6 Easy Steps
+          </a>
+        </p>
       </div>
-    </section>
 
-    <section id="courses" class="section">
-      <span class="section__icon ion-bookmark"></span>
+      <div class="resource__card">
+        <img src="images/babokicons/segmentation.png" alt="Balance scorecard" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Balanced Scorecard
+        </h3>
+        <p>Strategic planning and management tool for aligning business activities to the vision and strategy using
+          performance measurement.</p>
+        <p>
+          <strong>Balance Scorecard Dimensions</strong>
+        <ol>
+          <li>Learning and growth</li>
+          <li>Business process</li>
+          <li>Customer</li>
+          <li>Financial</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://online.hbs.edu/blog/post/balanced-scorecard">
+            • What Is a Balanced Scorecard? - HBS Online
+          </a>
+          </br>
+          <a href="https://thestrategystory.com/blog/balanced-scorecard-explained-with-examples/">
+            • Balanced Scorecard | Explained with Examples
+          </a>
+        </p>
+      </div>
 
-      <h2 class="section__title">Course Resources</h2>
-  
-      <div class="resources">
-        <div class="resource__card">
-          <img src="images/logoicons/codingheroes.png" alt="Codingheroes Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="http://codingheroes.io/resources/" class="favorite-link">Codingheroes Resources</a></h3>
-          <p> Jona's resources for building beautiful websites with HTML, CS and JavaScript.
-          </p>
-          <p> <ul class="resource__card-items">
-            <li><a href="https://discord.com/invite/uhMkpf4" class="sublink">Discord</a></li>
-          </ul>  
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/appBrewery.jpg" alt="App Brewery Logo" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.appbrewery.co/p/web-development-course-resource__cards/">App Brewery Resources </a></h3>
-          <p>Web Development Course Resources List
-          </p>
-          <p>
-            <ul class="resource__card-items">
-              <li><a href="https://discord.com/invite/f7BBFBn" class="sublink">Discord</a></li>
-            </ul>
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/webdevbootcamp.jpeg" alt="Web Development Bootcamp icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.notion.so/Web-Developer-Bootcamp-ChangeLog-45e3eab6be724c5f9a4b83c01044e126"
-            ">Web Developer Bootcamp ChangeLog</a></h3>
-          <p>This document includes a list of all changes made to The Web Developer Bootcamp, starting with its relaunch.
-          </p>
-          <p>
-            <ul class="resource__card-items">
-              <li><a href="https://discord.com/invite/CUga7jX" class="sublink">Discord</a></li>
-              <li><a href="https://www.facebook.com/groups/officialwebdeveloperbootcamp/" class="sublink">Facebook</a></li>
-              <li><a href="https://trello.com/b/0PVRE1XQ/web-developer-bootcamp" class="sublink">Trello Board</a></li>
-            </ul>
-          </p>
-        </div>
+      <div class="resource__card">
+        <img src="images/babokicons//canvas.png" alt="Canvas" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Business Model Canvas
+        </h3>
+        <p>Strategic tool for visualizing the key components of a business model to understand value creation.</p>
+        <p>
+          <strong>Business Model Canvas Elements</strong>
+        <ol>
+          <li>Key partnerships</li>
+          <li>Key activities</li>
+          <ul>
+            <li>Value-add</li>
+            <li>Non-value add</li>
+            <li>Business non-value add</li>
+          </ul>
+          <li>Key resources</li>
+          <li>Value proposition</li>
+          <li>Customer relationships</li>
+          <li>Channels</li>
+          <li>Customer segments</li>
+          <li>Cost structure</li>
+          <li>Revenue streams</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.strategyzer.com/business-models-the-toolkit-to-design-a-disruptive-company">
+            • Business models: the toolkit to design a disruptive company
+          </a>
+          </br>
+          <a
+            href="https://www.score.org/manasota/resource/template/business-model-canvas-bmc?gad_source=1&gbraid=0AAAAABLT7_2n_kw3b-3OMzGAtEm7dhV4q&gclid=Cj0KCQjwoNzABhDbARIsALfY8VOTylqhXLL8gdbhaXzVkV8NNZzVt_idmZDvMrS9Ji1aAsraWdCjyX8aAsHWEALw_wcB">
+            • Business Model Canvas Template
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/skills.png" alt="Skills" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Business Capability Analysis
+        </h3>
+        <p>Assessing the organization's capabilities to support strategic goals. The results can be modeled using a
+          <strong>capability map</strong>.
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.linkedin.com/pulse/power-business-capability-analysis-ibrahim-maro">
+            • The Power of Business Capability Analysis
+          </a>
+          </br>
+          <a href="https://www.leanix.net/en/wiki/ea/business-capability">
+            • The Definitive Guide to Business Capability
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/swot-analysis.png" alt="Swot analysis" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          SWOT Analysis
+        </h3>
+        <p>Tool for analyzing the current internal and external environment of an enterprise.</p>
+        <p>
+          <strong>SWOT Elements</strong>
+        <ul>
+          <li><strong>S</strong>trengths: positive, internal</li>
+          <li><strong>W</strong>eaknesses: negative, internal</li>
+          <li><strong>O</strong>pportunities: positive, external</li>
+          <li><strong>T</strong>hreats: negative, external</li>
+        </ul>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://corporatefinanceinstitute.com/resources/management/swot-analysis/">
+            • SWOT - Definition, Examples, Process, Uses
+          </a>
+          </br>
+          <a
+            href="https://mural.co/templates/swot-analysis?utm_medium=paid-search&utm_source=bing&utm_campaign=518707483&utm_term=swot%20analysis%20template&utm_adgroup=1323814484217162&utm_mt=p&msclkid=ff6903396e91176f5ec56b2ee036bfbd">
+            •Free SWOT Analysis | SWOT Analysis Template
+          </a>
+        </p>
+      </div>
 
 
-      </section>
+    </div>
+  </section>
+
+  <!-- Section 3: Stakeholder & Organizational Analysis -->
+  <section id="organization" class="section">
+    <span class="section__icon">
+      <ion-icon name="people-circle-outline" class="section__icon_svg"></ion-icon>
+    </span>
+    <h2 class="section__title">Stakeholder & Organizational Analysis</h2>
+    <div class="resources">
+
+      <div class="resource__card">
+        <img src="images/babokicons/hierarchical-structure.png" alt="Organizational hierarchy"
+          class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Organizational Modeling
+        </h3>
+        <p>Used to describe the structure, roles, and relationships within an organization</p>
+        <p>
+          <strong>Types of Organizational Models</strong>
+        <ol>
+          <li>Functionality-oriented</li>
+          <li>Market-oriented</li>
+          <li>Matrix model</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.lucidchart.com/blog/types-of-organizational-structures">
+            • 10 types of organizational structures
+          </a>
+          </br>
+          <a href="https://www.aihr.com/blog/organizational-design-models/">
+            • 9 Organizational Design Models You Should Know
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/rules.png" alt="Business rules" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Business Rules Analysis
+        </h3>
+        <p>Identifying, defining, validating, and refining business rules that influence business behavior and
+          decision-making.</p>
+        <p>
+          <strong>Types of Business Rules</strong>
+        <ol>
+          <li>Definitional rules</li>
+          <li>Bheavioral rules</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://businessanalystmentor.com/business-rules/">
+            • Introduction To Business Rules
+          </a>
+          </br>
+          <a
+            href="https://www.batimes.com/articles/business-rules-and-the-importance-of-the-business-analysis-discipline/">
+            • Business Rules and the Importance of the Business Analysis Discipline
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/role-play.png" alt="User persona" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Stakeholder List, Maps, and Personas
+        </h3>
+        <p>This technique involves identifying and analyzing individuals or groups impacted by, or influencing, a
+          solution.</p>
+        <p>
+          <strong>Tools for Stakeholder Identification</strong>
+        <ol>
+          <li>Stakeholder lists</li>
+          <li>Stakeholder map</li>
+          <ul>
+            <li>Stakeholder matrix</li>
+            <li>Onion diagram</li>
+          </ul>
+          <li>Responsibility (RACI) matrix</li>
+          <ul>
+            <li><strong>R</strong>esponsible</li>
+            <li><strong>A</strong>ccountable: only one stakeholder can have this designation</li>
+            <li><strong>C</strong>onsulted</li>
+            <li><strong>I</strong>nformed</li>
+          </ul>
+          <li>Personas</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.projectmanager.com/blog/stakeholder-register">
+            • What Is a Stakeholder Register? (Example & Template Included)
+          </a>
+          </br>
+          <a
+            href="https://www.projectmanager.com/blog/stakeholder-mapping-guide#:~:text=Stakeholder%20mapping%20is%20a%20visual,work%20you'll%20be%20doing.">
+            • Stakeholder Mapping 101: How to Make a Stakeholder Map
+          </a>
+          </br>
+          <a href="https://www.looppanel.com/blog/stakeholder-personas">
+            • The 4 Key Stakeholder Personas: A Guide to Stakeholder Mapping
+          </a>
+          </br>
+          <a
+            href="https://www.atlassian.com/work-management/project-management/raci-chart#:~:text=RACI%20charts%20categorize%20these%20roles,accountability%20for%20tasks%20or%20deliverables.">
+            • Understanding and using RACI charts
+          </a>
+          </br>
+          <a href="https://www.productleadership.com/user-persona-product-management/">
+            • How to create user personas in product management
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/authorization.png" alt="User permissions" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Roles and Permissions Matrix
+        </h3>
+        <p>Used to review access levels and responsibilities for users and stakeholders, and to identify gaps and/or
+          missing roles.</p>
+        <p class="resource__card-links">
+          <a href="https://dev.to/anna_p_s/best-practices-for-managing-users-roles-and-permissions-5140">
+            • Best Practices for Managing Users, Roles, and Permissions
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/handshake.png" alt="Handshake" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Vendor Assessment
+        </h3>
+        <p>Evaluating external providers to determine their suitability and alignment with business needs.</p>
+        <p>
+          <strong>Vendor Assessment Criteria</strong>
+        <ul>
+          <li>Knowledge and expertise</li>
+          <li>Licensing and pricing models</li>
+          <li>Vendor market position</li>
+          <li>Terms and conditions</li>
+          <li>Vendor experience, reputation, and stability</li>
+        </ul>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.zluri.com/blog/vendor-assessment">
+            • 6 Key Considerations for Effective Vendor Assessment
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 4: Elicitation Techniques -->
+  <section id="elicitation" class="section">
+    <span class="section__icon">
+      <ion-icon name="extension-puzzle-outline" class="section__icon_svg"></ion-icon>
+    </span>
+    <h2 class="section__title">Elicitation Techniques</h2>
+    <div class="resources">
+
+      <div class="resource__card">
+        <img src="images/babokicons/interview.png" alt="Interview" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Interviews
+        </h3>
+        <p><strong class="resource__card-focus">Collaboration: individual</strong></p>
+        <p>An organized conversational approach with stakeholders to elicit information, requirements, and insights.
+          This technique allows deep exploration of individual perspectives.</p>
+
+        <p>
+          <strong>Types of Interviews</strong>
+        <ol>
+          <li>Structured interview</li>
+          <li>Unstructured interview</li>
+        </ol>
+        </p>
+        <p>
+          <strong>Types of Questions</strong>
+        <ol>
+          <li>Open-ended questions</li>
+          <li>Close-ended questions</li>
+        </ol>
+        </p>
+        <p>
+          <strong>Factors for Successful Interviews</strong>
+        <ul>
+          <li>Domain knowledge of the interviewer</li>
+          <li>Experience of the interviewer in conducting interviews</li>
+          <li>Readiness of both the interviewer and interviewee</li>
+          <li>Clarity on the main goal of the interview</li>
+          <li>Successfull prior identification of interviewees</li>
+          <li>Pre-defined list of questions</li>
+          <li>Proper logistics planning (location, time, etc)</li>
+          <li>Definition of confidentiality</li>
+        </ul>
+        <p class="resource__card-links">
+          <a href="http://tactiledata.net/elicitation/">
+            • Elicitation Interview Technique Guide
+          </a>
+          </br>
+          <a href="https://www.digileaf.com/blog/business-analysis/requirements-elicitation-interview-dos-donts/">
+            • Requirements Elicitation: Interview Dos and Don’ts
+          </a>
+        </p>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/observation.png" alt="Observation" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Observation
+        </h3>
+        <p><strong class="resource__card-focus">Collaboration: individual</strong></p>
+        <p>Studying users in their work environment to understand processes, workflows, and pain points. It helps
+          uncover requirements that users may not explicitly articulate. Also known as Job Shadowing.</p>
+        <p>You must let the stakeholder(s) that they are not being evaluated on their performance. Keep in mind that
+          when people know they are being observed, they might (consciously or unconsciously) alter their practices.</p>
+        <p><strong>Observation Approaches</strong>
+        <ol>
+          <li>Active / Noticeable</li>
+          <li>Passive / Unnoticeble</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a
+            href="https://trustedinstitute.com/concept/pmi-pba/facilitation-techniques-elicitation/observation-job-shadowing/">
+            • Observation (Job Shadowing)
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/online-survey.png" alt="Survey" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Surveys and Questionnaires
+        </h3>
+        <p><strong class="resource__card-focus">Collaboration: individual</strong></p>
+        <p>A set of structured questions distributed to a large audience to gather quantitative or qualitative data.
+          Useful for reaching dispersed stakeholders quickly.</p>
+        <p>
+          <strong>Types of Questions</strong>
+        <ol>
+          <li>Open-ended questions</li>
+          <li>Close-ended questions</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.productplan.com/learn/customer-survey/">
+            • How to Craft a Great Customer Survey
+          </a>
+          </br>
+          <a href="https://www.surveymonkey.com/learn/product-development/">
+            • Surveys For Product Development
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/workshop.png" alt="Workshop" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Workshops
+        </h3>
+        <p><strong class="resource__card-focus">Collaboration: group-based</strong></p>
+        <p>Facilitated sessions involving key stakeholders to collaborate on planning, scoping, defining requirements,
+          priorities, or solutions. They promote shared understanding the building of consensus.</p>
+        <p>The need for a <strong>strong and neutral facilitator</strong> is key for a successfull workshop.</p>
+        <p class="resource__card-links">
+          <a href="https://howspace.com/blog/how-to-facilitate-a-workshop/">
+            • How to facilitate a successful workshop in 18 simple steps
+          </a>
+          </br>
+          <a href="https://www.workshopper.com/post/how-to-run-a-workshop">
+            • Workshop Training: How to Run an Effective Workshop
+          </a>
+          </br>
+          <a href="https://makeiterate.com/how-to-plan-a-workshop-a-quick-and-easy-guide/p">
+            • How to Plan a Workshop: A Quick and Easy Guide
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/focusgroup.png" alt="Focus groups" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Focus Groups
+        </h3>
+        <p><strong class="resource__card-focus">Collaboration: group-based</strong></p>
+        <p>Guided discussions with a selected group of stakeholders to gather opinions, perceptions, and feedback about
+          a product, process, or idea.</p>
+        <p>There are typically 6-12 <strong>pre-qualified</strong> participants.</p>
+        <p class="resource__card-links">
+          <a href="https://www.scribbr.com/methodology/focus-group/">
+            • What is a Focus Group | Step-by-Step Guide & Examples
+          </a>
+          </br>
+          <a
+            href="https://www.wix.com/encyclopedia/definition/focus-group?utm_source=bing&utm_medium=cpc&utm_campaign=402409164^1264439174602692^search%20-%20dsa&experiment_id=wix^b^^&msclkid=b4e40215b72118aa03f66a02645fe64a">
+            • Focus Groups - Learn About Focus Groups
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/brainstorming.png" alt="Brainstorming" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Brainstorming
+        </h3>
+        <p>A creative technique used to generate a wide range of ideas or solutions in a short time. Encourages free
+          thinking and broad participation without judgment.</p>
+        <p class="resource__card-links">
+          <a href="https://miro.com/brainstorming/what-is-brainstorming/">
+            • What is Brainstorming? Techniques and Methods
+          </a>
+          </br>
+          <a
+            href="https://www.score.org/resource/blog-post/13-business-brainstorming-strategies-encourage-innovation?gad_source=1&gbraid=0AAAAABJ_Op3COYetimN1xTjen38jbMXqw&gclid=Cj0KCQjwoNzABhDbARIsALfY8VNwsRaRNZrMgF3Zg6x_nlFHcaRqn1HPf19aaC03OxpNpJijEPpktu0aAk7qEALw_wcB">
+            • 13 Business Brainstorming Strategies to Encourage Innovation
+          </a>
+        </p>
+      </div>
+      G
+      <div class="resource__card">
+        <img src="images/babokicons/team-games.png" alt="Collaborative games" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Collaborative Games
+        </h3>
+        <p><strong class="resource__card-focus">Collaboration: group-based</strong></p>
+        <p>Structured activities designed to engage stakeholders and encourage innovative thinking. They promote
+          discovery and prioritization in a fun, interactive way.</p>
+        <p class="resource__card-links">
+          <a href="https://businessanalystmentor.com/collaborative-games-business-analysis/">
+            • Collaborative Games In Business Analysis
+          </a>
+          </br>
+          <a href="https://www.sessionlab.com/methods/8mfreu">
+            • The Product Box - SessionLab
+          </a>
+          </br>
+          <a href="https://miro.com/blog/create-affinity-diagrams/">
+            • Affinity diagrams: A powerful way to organize ideas — and make them easier to act on
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/mind-map.png" alt="Mind map" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Mind Mapping
+        </h3>
+        <p>A visual technique that organizes ideas and concepts around a central theme to explore connections. It aids
+          in structuring thoughts and complex ideas.</p>
+        <p class="resource__card-links">
+          <a
+            href="https://thedecisionlab.com/reference-guide/design/mind-mapping?utm_campaign=TDL+Dynamic&utm_medium=ppc&utm_source=adwords&utm_term=&hsa_mt=&hsa_net=adwords&hsa_ad=677032610777&hsa_src=g&hsa_cam=14567061057&hsa_kw=&hsa_grp=127713121155&hsa_tgt=dsa-19959388920&hsa_ver=3&hsa_acc=8441935193&gad_source=1&gbraid=0AAAAADQTTntFRS0m3JAVzL4XfvV8eOsUO&gclid=Cj0KCQjwoNzABhDbARIsALfY8VN79twUGo_MwrY6HhdWi-5MAo3u54IW8u7yjx_0Y-byfEOW96KIn6oaAtnMEALw_wcB">
+            • What is Mind Mapping?
+          </a>
+          </br>
+          <a href="https://www.mindmapping.com/">
+            • How To Make A Mind Map
+          </a>
+          </br>
+          <a href="https://thedigitalprojectmanager.com/tools/best-free-mind-mapping-software/">
+            • 20 Best Free Mind Mapping Software For Getting Creative In 2025
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/document-analysis.png" alt="Document analysis" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Document Analysis
+        </h3>
+        <p><strong class="resource__card-focus">Research</strong></p>
+        <p>Reviewing existing documentation to gather relevant information, identify gaps, or validate current
+          processes. Useful for understanding legacy systems and compliance constraints.</p>
+        <p class="resource__card-links">
+          <a href="https://www.adaptiveus.com/blog/document-analysis/">
+            • Document Analysis - What, Why and How
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons//prototype.png" alt="Prototyping" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Prototyping
+        </h3>
+        <p><strong class="resource__card-focus">Experiments</strong></p>
+        <p>Creating a preliminary version of a solution—such as wireframes, mockups, or interactive models—to visualize
+          requirements and gather early feedback. It helps clarify stakeholder expectations and refine functionality.
+        </p>
+        <p>
+          <strong>Prototyping Approaches</strong>
+        <ol>
+          <li>Throw-away</li>
+          <li>Evolutionary or functional</li>
+        </ol>
+        </p>
+        <p><strong>Prototyping Examples</strong>
+        <ol>
+          <li>Proof of Concept (POC)</li>
+          <li>Form study</li>
+          <li>Usability</li>
+          <li>Visual</li>
+          <li>Functional</li>
+        </ol>
+        </p>
+        <p>
+          <strong>Prototyping Methods</strong>
+        <ol>
+          <li>Storyboarding</li>
+          <li>Paper prototypes</li>
+          <li>Workflow modeling</li>
+          <li>Simulation</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://mcal.in/blog/driving-innovation-a-comprehensive-guide-to-prototyping-for-business-analysts/">
+            • A Comprehensive Guide to Prototyping for Business Analysts
+          </a>
+          </br>
+          <a href="https://www.encata.net/blog/understanding-the-nuances-of-poc-prototype-and-mvp">
+            • Understanding the nuances of PoC, Prototype, and MVP
+          </a>
+          </br>
+          <a href="https://usabilitygeek.com/usability-testing-prototypes/">
+            • Usability Testing With Prototypes
+          </a>
+          </br>
+          <a href="https://fourweekmba.com/storyboarding-business/">
+            • What Is Storyboarding And Why It Matters In Business
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </section>
 
 
-    <section id="random" class="section"> 
-      <span class="section__icon ion-android-attach"></span>
+  <section id="requirements" class="section">
+    <span class="section__icon ion-ios-compose-outline"></span>
+    <h2 class="section__title"> Requirements Definition & Analysis</h2>
+    <div class="resources">
 
-      <h2 class="section__title">Other Random Stuff</h2>
-   
-      <div class="resources">
-        <div class="resource__card">
-          <img src="images/logoicons/typing.png" alt="Typing icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://www.keybr.com/">Touch Typing</a></h3>
-          <p> Practice your typing.
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/karel.png" alt="Karel icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="http://stanford.edu/~cpiech/karel/ide.html">Stanford Karel</a></h3>
-          <p>In the 1970s, a Stanford graduate student named Rich Pattis decided that it would be easier to teach the fundamentals of programming if students could somehow learn the basic ideas in a simple environment 
-            free from the complexities that characterize most programming languages. 
-          </p>
-        </div>
-        <div class="resource__card">
-          <img src="images/logoicons/markdownit.png" alt="Markdown icon" class="resource__card-img" />
-          <h3 class="resource__card-title"><a href="https://markdown-it.github.io/">Markdown-it Demo</a></h3>
-          <p>Site to create demo markdown content for documents.
-          </p>
-        </div>
-      </section>
+      <div class="resource__card">
+        <img src="images/babokicons/story.png" alt="User story" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          User Stories
+        </h3>
+        <p>Short, simple descriptions of a feature told from the perspective of the end user, commonly used in Agile to
+          capture functional requirements in a lightweight, iterative manner.
+        </p>
+        <p>User stories typically follow the format “As a [user role], I want [goal] so that [benefit/motivation]</p>
+        <p>
+          <strong>Aspects of User Stories (3Cs)</strong>
+        <ol>
+          <li>Card</li>
+          <li>Conversation</li>
+          <li>Confirmation</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a
+            href="https://frontend.turing.edu/lessons/module-3/user-stories.html?ads_cmpid=6451354298&ads_adid=76255849919&ads_matchtype=&ads_network=g&ads_creative=665961240900&utm_term=&ads_targetid=dsa-19959388920&utm_campaign=&utm_source=adwords&utm_medium=ppc&ttv=2&gad_source=1&gbraid=0AAAAADFpKZ_FrE2p6y288fnEvUqA3BPG4&gclid=Cj0KCQjwoNzABhDbARIsALfY8VNl9U2ydFOUvFfWDbTdKG_SA_zcwcIgz-aG8klVN1P57fXa7T2vCEwaAhTtEALw_wcB">
+            • Writing Effective User Stories
+          </a>
+          </br>
+          <a href="https://www.mountaingoatsoftware.com/agile/user-stories">
+            • User Stories and User Story Examples by Mike Cohn
+          </a>
+        </p>
+
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/case.png" alt="User case" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Use Cases and Scenarios
+        </h3>
+        <p><strong>Use cases</strong> describe how a user interacts with a system to achieve a specific goal, often
+          including main flows and alternate paths. </p>
+        <p><strong>Scenarios</strong> detail specific instances or examples of those interactions to illustrate behavior
+          and edge cases.</p>
+        <p>
+          <strong>Use Case Diagram Components</strong>
+        <ol>
+          <li>Actors</li>
+          <li>Association</li>
+          <li>Boundary Box</li>
+          <li>Use Case</li>
+          <li>Relationships</li>
+          <ul>
+            <li>Extend</li>
+            <li>Include</li>
+          </ul>
+        </ol>
+        </p>
+        <p>
+          <strong>Use Case Description Components</strong>
+        <ol>
+          <li>Name</li>
+          <li>Actor(s)</li>
+          <li>Flow of events</li>
+          <li>Pre-conditions</li>
+          <li>Post-conditions</li>
+          <li>Extension points</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.figma.com/resource-library/what-is-a-use-case/">
+            • What is a use case? How to write one, examples, + template
+          </a>
+          </br>
+          <a href="https://www.geeksforgeeks.org/use-case-diagram/">
+            • Use Case Diagram - Unified Modeling Language (UML)
+          </a>
+        </p>
+
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/evaluation.png" alt="Evaluation criteria" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Acceptance & Evaluation Criteria
+        </h3>
+        <p>Clearly defined conditions that a solution and designs must meet to be accepted by stakeholders. They guide
+          testing, validation, and decision-making by establishing measurable success standards.</p>
+        <p class="resource__card-links">
+          <a href="https://business-analysis-excellence.com/acceptance-evaluation-criteria-context-business-analysis/">
+            • Acceptance and Evaluation Criteria | Business Analysis
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/performance.png" alt="Performance" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Non-Functional Requirements (NFR) Analysis
+        </h3>
+        <p>Identifying and analyzing quality attributes to ensure the solution’s effectiveness beyond just functional
+          behavior.</p>
+        <p>
+          <strong>Common Non-functional Requirements</strong>
+        <ul>
+          <li>Availability</li>
+          <li>Compliance</li>
+          <li>Compatibility</li>
+          <li>Extensibility</li>
+          <li>Localization</li>
+          <li>Maintainability</li>
+          <li>Performance</li>
+          <li>Portability</li>
+          <li>Reliability</li>
+          <li>Scalability</li>
+          <li>Security</li>
+          <li>Usability</li>
+        </ul>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.perforce.com/blog/alm/what-are-non-functional-requirements-examples">
+            • Non-functional Requirements: What They Do, Examples, and Best Practices
+          </a>
+          </br>
+          <a href="https://1202performance.wordpress.com/atricles/how-to-write-performance-requirements-with-example/">
+            • How to write Performance Requirements with Example
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/backlog.png" alt="Backlog" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Backlog Management
+        </h3>
+        <p>Ongoing process of creating, refining, prioritizing, and tracking requirements or tasks (often in a product
+          backlog). It ensures transparency and alignment with business value in iterative development environments.</p>
+        <p class="resource__card-links">
+          <a href="https://www.scrum.org/learning-series/product-backlog-management/">
+            • Product Backlog Management
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/priority.png" alt="Priority" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Prioritization
+        </h3>
+        <p>Evaluating and ranking requirements, tasks, or features based on factors like business value, risk, urgency,
+          or cost. It supports decision-making to focus efforts on what matters most to stakeholders.</p>
+        <p>
+          <strong>Prioritization Techniques</strong>
+        <ol>
+          <li>MoSCoW</li>
+          <li>Kano model</li>
+          <li>Value vs Risk model</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://welldoneby.com/blog/best-prioritization-techniques-you-will-need/">
+            • 10 Prioritization Matrices & Techniques You Need to Narrow a Product Backlog
+          </a>
+          </br>
+          <a href="https://thedigitalprojectmanager.com/projects/task-prioritization/">
+            • How To Prioritize Tasks: 5 Proven Techniques
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </section>
 
 
-      <footer>
-        <div class="footer_content">
-          Icons made by
-          <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
-          <a href="https://www.flaticon.com/" title="Flaticon"
-            >www.flaticon.com</a
-          >
-        </div>
-      </footer>
-  </body>
+  <!-- Section 5: Process & Logic Modeling -->
+  <section id="process" class="section">
+    <span class="section__icon">
+      <ion-icon name="git-compare-outline" class="section__icon_svg"></ion-icon>
+    </span>
+    <h2 class="section__title"> Process & Logic Modeling</h2>
+    <div class="resources">
+
+      <div class="resource__card">
+        <img src="images/babokicons/structure.png" alt="Functional structure" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Functional Decomposition
+        </h3>
+        <p>Breaking down high-level processes or functions into smaller, more manageable components. It helps clarify
+          scope and identify all necessary elements of a solution.
+        </p>
+        <p>A <strong>work breakdown structure (WBS)</strong> is a hierarchical decomposition of work.</p>
+        <p class="resource__card-links">
+          <a href="https://www.adaptiveus.com/blog/functional-decomposition/">
+            • Functional Decomposition Technique : Comprehensive Guide for Business Analysts
+          </a>
+          </br>
+          <a href="https://www.workbreakdownstructure.com/">
+            • What is a Work Breakdown Structure?
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/scope.png" alt="Scope" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Scope Modeling
+        </h3>
+        <p>Visually defining the boundaries of a system, project, or solution by identifying what is in and out of
+          scope. It ensures alignment among stakeholders on expectations and deliverables.</p>
+        <p class="resource__card-links">
+          <a href="https://www.gliffy.com/blog/system-context-diagrams">
+            • Visualize Interactions with System Context Diagrams
+          </a>
+          </br>
+          <a href="https://www.batimes.com/articles/using-scope-models-to-manage-solution-scope/">
+            • Using Scope Models to Manage Solution Scope
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/modeling.png" alt="Concept modeling" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Concept Modeling
+        </h3>
+        <p>Creating a structured representation of key terms, entities, and relationships within a business domain. It
+          supports shared understanding and consistency in communication.</p>
+        <p class="resource__card-links">
+          <a href="https://digitalgadgetwave.com/understanding-concept-models-definition-examples/">
+            • Understanding Concept Models: Definition, Examples, and Benefits
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/brain.png" alt="Interface analysis" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Interface Analysis
+        </h3>
+        <p>Identifying and examining the interactions between systems, users, and external entities. This helps ensure
+          smooth data exchange and integration between components.</p>
+        <p>
+          <strong>Interface Types</strong>
+        <ol>
+          <li>Human–System interaction</li>
+          <li>People external to the solution</li>
+          <li>Business processes</li>
+          <li>Data interfaces between systems</li>
+          <li>Application programming interfaces (APIs)</li>
+          <li>Hardware devices</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://thebadoc.com/ba-techniques/f/interpreting-the-interface-analysis">
+            • Interpreting the Interface Analysis
+          </a>
+        </p>
+
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/data-flow.png" alt="Process analysis" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Process Analysis
+        </h3>
+        <p>Examining current business processes to understand performance, identify inefficiencies, and recommend
+          improvements. It forms the foundation for redesign or automation efforts.</p>
+        <p>
+          <strong>Common Process Analysis Methods</strong>
+        <ol>
+          <li>Suppliers, Inputs, Process, Outcomes and Customer (SIPOC)</li>
+          <li>Value Stream Mapping (VSM)</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.ibm.com/think/topics/process-analysis">
+            • What is process analysis?
+          </a>
+          </br>
+          <a href="https://kanbantool.com/kanban-guide/what-is-sipoc">
+            • What is a SIPOC (COPIS) Diagram?
+          </a>
+          </br>
+          <a href="https://www.lean.org/lexicon-terms/value-stream-mapping/">
+            • Value Stream Mapping Overview
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/archive.png" alt="Process modeling" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Process Modeling
+        </h3>
+        <p>Creating visual diagrams that depict how a business process works, including steps, decision points, and
+          flows. It helps communicate and analyze current or future processes.</p>
+        <p>
+          <strong>Process Modeling Levels</strong>
+        <ul>
+          <li>High-level (enterprise or context)</li>
+          <li>Medium-level (operational)</li>
+          <li>Low-level (system)</li>
+        </ul>
+        </p>
+        <p>
+          <strong>Types of Process Models and Notations</strong>
+        <ol>
+          <li>Flowcharts and Value Stream Mapping (VSM)</li>
+          <li>Dataflow diagrams and unified modeling language (UML)</li>
+          <li>Business process model and notation (BPMN)</li>
+          <li>Integrated definition (IDEF) notation and input, guide, output, enabler (IGOE) diagram</li>
+          <li>SIPOC and value stream analysis</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.atlassian.com/work-management/project-management/flowchart">
+            • Flowcharts Explained [+How to Create Them]
+          </a>
+          </br>
+          <a href="https://www.lucidchart.com/pages/data-flow-diagram">
+            • What is a Data Flow Diagram
+            <a>
+              </br>
+              <a href="https://www.omg.org/spec/BPMN/2.0.2/About-BPMN">
+                • 2.0.2 BPMN Specifications
+              </a>
+              </br>
+              <a href="https://camunda.com/bpmn/">
+                • What is BPMN? Business Process Model and Notation
+              </a>
+              </br>
+              <a href="https://www.edrawmax.com/article/the-complete-guide-to-understand-idef-diagram.html">
+                • The Complete Guide To Understand IDEF Diagram
+              </a>
+              </br>
+              <a href="https://bptrends.info/glossary/scope-diagram-or-input-guides-outputs-enablers-igoe-diagram/">
+                • Scope Diagram (or Input-Guides-Outputs-Enablers – IGOE Diagram)
+              </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/sequence.png" alt="Sequence" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Sequence Diagrams
+        </h3>
+        <p>Illustrates the chronological flow of messages between actors and systems over time. This technique is useful
+          for understanding dynamic system behavior and interactions."</p>
+        <p>
+          <strong>Sequence Diagram Components</strong>
+        <ol>
+          <li>Lifeline</li>
+          <li>Activation box</li>
+          <li>Message</li>
+        </ol>
+        </p>
+        <p>
+          <strong>Types of Messages</strong>
+        <ol>
+          <li>Synchronous call</li>
+          <li>Asynchronous call</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/">
+            • What is Sequence Diagram?
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/activity.png" alt="State diagram" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          State Modeling
+        </h3>
+        <p>Involves representing the various states an object or system can be in and the transitions between them. It
+          clarifies system behavior in response to events or conditions.</p>
+        <p class="resource__card-links">
+          <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/about-state-diagrams/">
+            • All You Need to Know about State Diagrams
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/analysis.png" alt="Decision analysis" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Decision Analysis
+        </h3>
+        <p>The process of evaluating different options based on defined criteria, risks, and outcomes. It supports
+          rational, evidence-based decision-making.</p>
+        <p>
+          <strong>Types of Decision Matrices</strong>
+        <ol>
+          <li>Simple decision matrix</li>
+          <li>Weighted decision matrix</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://corporatefinanceinstitute.com/resources/data-science/decision-analysis-da/">
+            • Decision Analysis (DA): Definition, Uses, and Examples
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/decision-tree.png" alt="Decision tree" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Decision Modeling
+        </h3>
+        <p>Capturing and structuring business decisions, including the rules, inputs, and logic that drive them. It
+          helps formalize complex decision-making processes.</p>
+        <p>
+          <strong>Types of Decision Models and Notations</strong>
+        <ol>
+          <li>Decision tables</li>
+          <li>Decision trees</li>
+          <li>Decision requirements diagram</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://camunda.com/blog/2024/12/understanding-decision-tables-a-complete-guide-for-beginners/">
+            • Understanding Decision Tables: A Complete Guide for Beginners
+          </a>
+          </br>
+          <a href="https://www.lucidchart.com/pages/tutorial/decision-tree">
+            • What is a Decision Tree Diagram
+          </a>
+          </br>
+          <a href="https://resource.flexrule.com/knowledge-base/decision-requirement-diagram/">
+            • What is Decision Requirement Diagram (DRD)?
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Section 6: Data Modeling & Information Architectures -->
+  <section id="data" class="section">
+    <span class="section__icon">
+      <ion-icon name="server-outline" class="section__icon_svg"></ion-icon>
+    </span>
+    <h2 class="section__title"> Data Modeling & Information Architectures</h2>
+    <div class="resources">
+
+      <div class="resource__card">
+        <img src="images/babokicons/dictionary.png" alt="Glossary" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Glossary
+        </h3>
+        <p>A curated list of business terms and their definitions used within a project or organization. It ensures
+          consistent language and shared understanding among stakeholders.</p>
+        <p class="resource__card-links">
+          <a href="https://www.collibra.com/blog/what-is-a-business-glossary">
+            • What is a business glossary: definitions and examples
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/data.png" alt="Data dictionary" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Data Dictionary
+        </h3>
+        <p>A detailed repository of data elements, including their names, types, formats, and allowable values. It
+          provides structure and clarity for data definitions used in systems and documentation.</p>
+        <p class="resource__card-links">
+          <a href="https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary">
+            • What is a Data Dictionary?
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/data-model.png" alt="Data model" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Data Modeling
+        </h3>
+        <p>Defining and organizing data elements, structures, and their relationships. This supports effective database
+          design and data architecture planning.</p>
+        <p>
+          <strong>Types of Data Models</strong>
+        <ol>
+          <li>Conceptual data model</li>
+          <li>Logical data model</li>
+          <li>Physical data model</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.ibm.com/think/topics/data-modeling">
+            • What is data modeling?
+          </a>
+          </br>
+          <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/">
+            • What is Class Diagram?
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/data-flow_2.png" alt="Data flow diagram" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Data Flow Diagrams
+        </h3>
+        <p>Visual representations of how data moves through a system, including sources, processes, data stores, and
+          outputs. DFDs are useful for analyzing and improving data processing activities.</p>
+        <p>
+          <strong>Data Flow Diagrams Levels of Abstraction</strong>
+        <ol>
+          <li>Level 0</li>
+          <li>Level 1</li>
+          <li>Level 2, 3, etc.</li>
+          <li>Logical DFD</li>
+          <li>Physical DFD</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.geeksforgeeks.org/what-is-dfddata-flow-diagram/">
+            • What is DFD(Data Flow Diagram)?
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/data-mining.png" alt="Data mining" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Data Mining
+        </h3>
+        <p>Analyzing large volumes of data to discover hidden patterns, correlations, or trends. It helps generate
+          actionable insights for strategic and operational decision-making.</p>
+        <p>
+          <strong>Data Mining Techniques</strong>
+        <ol>
+          <li>Descriptive</li>
+          <li>Diagnostic</li>
+          <li>Predictive</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.geeksforgeeks.org/data-mining/">
+            • Data Mining Tutorial
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section 7: Performance Measurement & Optimization -->
+  <section id="optimization" class="section">
+    <span class="section__icon">
+      <ion-icon name="analytics-outline" class="section__icon_svg"></ion-icon>
+    </span>
+    <h2 class="section__title">Performance Measurement & Optimization</h2>
+    <div class="resources">
+
+      <div class="resource__card">
+        <img src="images/babokicons/follow-up.png" alt="Item tracking" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Item Tracking
+        </h3>
+        <p>Used to capture, monitoring the status, progress, and resolution of work items such as requirements, defects,
+          or tasks. It helps maintain transparency and ensures accountability throughout the project lifecycle.</p>
+        <p>
+          <strong>Item Record Elements</strong>
+        <ol>
+          <li>Item identifier</li>
+          <li>Summary</li>
+          <li>Category</li>
+          <li>Type</li>
+          <li>Date identified</li>
+          <li>Identified by</li>
+          <li>Impact</li>
+          <li>Priority</li>
+          <li>Resolution date</li>
+          <li>Owner</li>
+          <li>Resolver</li>
+          <li>Agreed startegy</li>
+          <li>Status</li>
+          <li>Resolution updates</li>
+          <li>Escalation matrix</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://thefunctionalba.com/item-tracking-in-business-analysis/">
+            • Item tracking in business analysis - The Functional BA
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/benchmarking.png" alt="KPIs" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Metrics & KPIs
+        </h3>
+        <p>Defining and using quantitative measures to assess the success of the solution, solution components, or
+          initiative. Key Performance Indicators (KPIs) track performance against strategic objectives.
+        </p>
+        <p>
+          <strong>Key Factors for Successful Metrics</strong>
+        <ul>
+          <li>Reliability</li>
+          <li>Validity</li>
+          <li>Timeliness</li>
+        </ul>
+        </p>
+        <p class="resource__card-links">
+          <a
+            href="https://www.atlassian.com/agile/product-management/product-management-kpis?clickid=XfK097TINxyKTfhWHPXQryvbUksR7tWluS%3A4wI0&irgwc=1&utm_medium=paid-affiliate&utm_source=impact&ircid=17715&irpid=390418&irmpname=Wildfire%20Systems&irmptype=mediapartner&irshareid=A56&irmpgroupname=%22Non-Tech%22&iraid=2022041&utm_content=Wildfire%20-%20Atlassian%20Tracking--TEXT_LINK--&irclkid=XfK097TINxyKTfhWHPXQryvbUksR7tWluS%3A4wI0">
+            • 16 product management KPIs and how to track them
+          </a>
+          <a href="https://www.businessanalyststoolkit.com/business-analyst-performance-metrics/">
+            • Business Analyst Performance Metrics: Maximising Your Potential as a Business Analyst
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/documents.png" alt="Reviews" class="resource__card-img" />
+        <h3 class="resource__card-title">
+          Reviews
+        </h3>
+        <p>Examination of work products such as documents, models, requirements, designs, or code to verify quality,
+          completeness, and compliance with requirements. Reviews help identify issues early and improve deliverable
+          quality.
+        </p>
+        <p>
+          <strong>Formal Review Techniques</strong>
+        <ol>
+          <li>Inspection</li>
+          <li>Formal walkthrough (AKA team review)</li>
+          <li>Single issue review (AKA technical review)</li>
+        </ol>
+        </p>
+        <p>
+          <strong>Informal Review Techniques</strong>
+        <ol>
+          <li>Informal walkthrough</li>
+          <li>Desk check</li>
+          <li>Pass around</li>
+          <li>Ad hoc</li>
+        </ol>
+        </p>
+        <p class="resource__card-links">
+          <a href="https://www.geeksforgeeks.org/different-phases-of-formal-review/">
+            • Different Phases of Formal Review
+          </a>
+          </br>
+          <a href="https://ianpestelos.medium.com/test-early-and-collaboratively-with-desk-checking-7ef94b12460">
+            • Test Early and Collaboratively with “Desk Checking”
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/root-cause.png" alt="Root cause" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Root Cause Analysis
+        </h3>
+        <p>Identifying the underlying cause of a problem rather than its symptoms. This technique supports effective
+          corrective action and long-term process improvement.
+        </p>
+        <p>Root cause analysis can be used for <strong>reactive</strong> or <strong>proactive</strong> analysis.</p>
+        <p>
+          <strong>Analysis Activities</strong>
+        <ul>
+          <li>Problem statement definition</li>
+          <li>Data collection</li>
+          <li>Cause identification</li>
+          <li>Action identification</li>
+        </ul>
+        </p>
+        <p>Root Cause Analysis Tools</p>
+        <ol>
+          <li>The Fishbone Diagram (AKA Ishikawa or cause-and-effect diagram)</li>
+          <li>Five Whys</li>
+        </ol>
+        <p class="resource__card-links">
+          <a href="https://online.hbs.edu/blog/post/root-cause-analysis">
+            • Root Cause Analysis: What It Is & How to Perform One
+          </a>
+          </br>
+          <a href="https://www.6sigma.us/etc/what-is-ishikawa-fishbone-diagram/">
+            • What is Ishikawa (Fishbone Diagram)?
+          </a>
+          </br>
+          <a href="https://www.lucidchart.com/pages/tutorial/what-is-a-fishbone-diagram">
+            • What is a Fishbone Diagram (Examples and Templates)
+          </a>
+          </br>
+          <a href="https://www.atlassian.com/team-playbook/plays/5-whys?tab=instructions">
+            • Complete Guide to the 5 Whys Exercise
+          </a>
+        </p>
+      </div>
+
+      <div class="resource__card">
+        <img src="images/babokicons/learned.png" alt="Lessons learned" class="resource__card-img" />
+        <h3 class="resource__card-title favorite-technique">
+          Lessons Learned
+        </h3>
+        <p>Documenting insights, successes, and failures from completed work to inform future projects. It helps
+          organizations build knowledge and avoid repeating past mistakes.
+        </p>
+        <p class="resource__card-links">
+          <a href="https://lessonslearnedsolutions.com/article/the-importance-of-capturing-and-sharing-lessons">
+            • The Importance of Capturing and Sharing Lessons Learned
+          </a>
+          </br>
+          <a href="https://asana.com/resources/lessons-learned">
+            • How to capture lessons learned in project management
+          </a>
+          </br>
+          <a href="https://www.retrium.com/blog/10-retrospective-techniques-to-try-with-your-agile-team">
+            • 10 Retrospective techniques to try with your agile team
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer_content">
+      Icons made by
+      <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
