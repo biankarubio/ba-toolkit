@@ -1,4 +1,4 @@
-# Web Resources Wiki
-📖 One page wiki site for web resources. 
+# BA Toolkit Wiki
+📖 One page wiki site for Business Analysis techniques. 
 
-View on GitHug sites: https://biankita.github.io/webresources-wikisite/
+View on GitHug sites: https://biankarubio.github.io/ba-toolkit/
